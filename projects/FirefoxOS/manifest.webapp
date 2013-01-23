@@ -1,0 +1,15 @@
+{
+	"name": "Enyo 2 Sampler",
+	"description": "Sampler for the Enyo2 framework on FirefoxOS",
+	"launch_path": "/sampler/",
+	"icons": {
+		"30": "/icon-30.png",
+		"60": "/icon-60.png",
+		"128": "/icon-128.png"
+	},
+	"developer": {
+		"name": "Palm, Inc.",
+		"url": "http://enyojs.com"
+	},
+	"default_locale": "en"
+}
