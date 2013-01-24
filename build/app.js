@@ -1,7 +1,7 @@
 
 // minifier: path aliases
 
-enyo.path.addPaths({layout: "C://Users/Jason/Desktop/sampler/enyo/tools/../../lib/layout/", onyx: "C://Users/Jason/Desktop/sampler/enyo/tools/../../lib/onyx/", onyx: "C://Users/Jason/Desktop/sampler/enyo/tools/../../lib/onyx/source/", g11n: "C://Users/Jason/Desktop/sampler/enyo/tools/../../lib/g11n/", canvas: "C://Users/Jason/Desktop/sampler/enyo/tools/../../lib/canvas/"});
+enyo.path.addPaths({layout: "C://Users/Jason/Git/enyo2-sampler-webapp/enyo/tools/../../lib/layout/", onyx: "C://Users/Jason/Git/enyo2-sampler-webapp/enyo/tools/../../lib/onyx/", onyx: "C://Users/Jason/Git/enyo2-sampler-webapp/enyo/tools/../../lib/onyx/source/", g11n: "C://Users/Jason/Git/enyo2-sampler-webapp/enyo/tools/../../lib/g11n/", canvas: "C://Users/Jason/Git/enyo2-sampler-webapp/enyo/tools/../../lib/canvas/"});
 
 // FittableLayout.js
 

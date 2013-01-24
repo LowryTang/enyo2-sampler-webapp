@@ -1,5 +1,5 @@
 
-/* C://Users/Jason/Desktop/sampler/enyo/tools/../../lib/layout/fittable/source/FittableLayout.css */
+/* C://Users/Jason/Git/enyo2-sampler-webapp/enyo/tools/../../lib/layout/fittable/source/FittableLayout.css */
 
 .enyo-fittable-rows-layout {
 	position: relative;
@@ -71,7 +71,7 @@
 	margin-bottom: 0 !important;
 }
 
-/* C://Users/Jason/Desktop/sampler/enyo/tools/../../lib/layout/list/source/List.css */
+/* C://Users/Jason/Git/enyo2-sampler-webapp/enyo/tools/../../lib/layout/list/source/List.css */
 
 .enyo-list {
 	position: relative;
@@ -115,7 +115,7 @@
 	-o-transition: top 0.1s linear, left 0.1s linear;
 }
 
-/* C://Users/Jason/Desktop/sampler/enyo/tools/../../lib/layout/list/source/PulldownList.css */
+/* C://Users/Jason/Git/enyo2-sampler-webapp/enyo/tools/../../lib/layout/list/source/PulldownList.css */
 
 .enyo-list-pulldown {
 	position: absolute;
@@ -178,7 +178,7 @@
 	-ms-transform: rotate(180deg);
 }
 
-/* C://Users/Jason/Desktop/sampler/enyo/tools/../../lib/layout/panels/source/arrangers/Arranger.css */
+/* C://Users/Jason/Git/enyo2-sampler-webapp/enyo/tools/../../lib/layout/panels/source/arrangers/Arranger.css */
 
 .enyo-arranger {
 	position: relative;
@@ -211,7 +211,7 @@
 }
 
 
-/* C://Users/Jason/Desktop/sampler/enyo/tools/../../lib/layout/panels/source/Panels.css */
+/* C://Users/Jason/Git/enyo2-sampler-webapp/enyo/tools/../../lib/layout/panels/source/Panels.css */
 
 .enyo-panels {
 }
@@ -226,7 +226,7 @@
 	}
 }
 
-/* C://Users/Jason/Desktop/sampler/enyo/tools/../../lib/layout/tree/source/Node.css */
+/* C://Users/Jason/Git/enyo2-sampler-webapp/enyo/tools/../../lib/layout/tree/source/Node.css */
 
 .enyo-node {
 	cursor: default;
@@ -258,7 +258,7 @@
 }
 
 
-/* C://Users/Jason/Desktop/sampler/enyo/tools/../../lib/layout/imageview/source/ImageViewPin.css */
+/* C://Users/Jason/Git/enyo2-sampler-webapp/enyo/tools/../../lib/layout/imageview/source/ImageViewPin.css */
 
 
 .pinDebug {
@@ -266,7 +266,7 @@
 	border:1px solid yellow;
 }
 
-/* C://Users/Jason/Desktop/sampler/enyo/tools/../../lib/onyx/css/onyx.css */
+/* C://Users/Jason/Git/enyo2-sampler-webapp/enyo/tools/../../lib/onyx/css/onyx.css */
 
 /* WARNING: This is a generated file for backward-compatibility.  Most      */
 /* usrs should instead modify LESS files.  If you choose to edit this CSS   */
@@ -537,6 +537,7 @@
   outline: none;
   cursor: pointer;
   background-color: transparent;
+  background-image: none;
   font-size: 16px;
   box-shadow: none;
   /* FIXME: hack for styling reset on Android */
@@ -661,6 +662,7 @@
   outline: none;
   cursor: pointer;
   background-color: transparent;
+  background-image: none;
   font-size: 16px;
   box-shadow: none;
   /* Remove scrollbars and resize handle */
@@ -693,6 +695,7 @@
   outline: none;
   cursor: pointer;
   background-color: transparent;
+  background-image: none;
   font-size: 16px;
   min-height: 20px;
   min-width: 100px;
@@ -1420,7 +1423,7 @@
 }
 
 
-/* C://Users/Jason/Desktop/sampler/enyo/tools/../../lib/layout/fittable/samples/sample.css */
+/* C://Users/Jason/Git/enyo2-sampler-webapp/enyo/tools/../../lib/layout/fittable/samples/sample.css */
 
 .fittable-sample-box {
 	border: 2px solid lightblue;
@@ -1499,7 +1502,7 @@
 	font-weight: bold;
 }
 
-/* C://Users/Jason/Desktop/sampler/enyo/tools/../../lib/layout/panels/samples/PanelsSample.css */
+/* C://Users/Jason/Git/enyo2-sampler-webapp/enyo/tools/../../lib/layout/panels/samples/PanelsSample.css */
 
 .panels-sample-panels {
 	min-height: 320px;
@@ -1543,7 +1546,7 @@
 }
 
 
-/* C://Users/Jason/Desktop/sampler/enyo/tools/../../lib/layout/panels/samples/PanelsFlickrSample.css */
+/* C://Users/Jason/Git/enyo2-sampler-webapp/enyo/tools/../../lib/layout/panels/samples/PanelsFlickrSample.css */
 
 .panels-sample-flickr-panels {
 	color: white;
@@ -1618,7 +1621,7 @@
 	height: 100%;
 }
 
-/* C://Users/Jason/Desktop/sampler/enyo/tools/../../lib/layout/panels/samples/PanelsSlidingSample.css */
+/* C://Users/Jason/Git/enyo2-sampler-webapp/enyo/tools/../../lib/layout/panels/samples/PanelsSlidingSample.css */
 
 .panels-sample-sliding-panels > * {
 	width: 320px;
@@ -1638,7 +1641,7 @@
 	padding: 10px;
 }
 
-/* C://Users/Jason/Desktop/sampler/enyo/tools/../../lib/layout/list/samples/ListAroundSample.css */
+/* C://Users/Jason/Git/enyo2-sampler-webapp/enyo/tools/../../lib/layout/list/samples/ListAroundSample.css */
 
 .list-sample-around {
 	background: url(../lib/layout/list/samples/assets/bg.png);
@@ -1700,7 +1703,7 @@
 	padding-right: 10px;
 }
 
-/* C://Users/Jason/Desktop/sampler/enyo/tools/../../lib/layout/list/samples/ListBasicSample.css */
+/* C://Users/Jason/Git/enyo2-sampler-webapp/enyo/tools/../../lib/layout/list/samples/ListBasicSample.css */
 
 .list-sample {
 	background-color: gray;
@@ -1727,7 +1730,7 @@
 	background-color: #c4e3fe;
 }
 
-/* C://Users/Jason/Desktop/sampler/enyo/tools/../../lib/layout/list/samples/ListContactsSample.css */
+/* C://Users/Jason/Git/enyo2-sampler-webapp/enyo/tools/../../lib/layout/list/samples/ListContactsSample.css */
 
 .list-sample-contacts {
 	color: white;
@@ -1787,7 +1790,7 @@
 	padding-right: 10px;
 }
 
-/* C://Users/Jason/Desktop/sampler/enyo/tools/../../lib/layout/list/samples/ListPulldownSample.css */
+/* C://Users/Jason/Git/enyo2-sampler-webapp/enyo/tools/../../lib/layout/list/samples/ListPulldownSample.css */
 
 a:link, a:visited {
 	color: lightblue;
@@ -1805,7 +1808,7 @@ a:link, a:visited {
 	color: white;
 }
 
-/* C://Users/Jason/Desktop/sampler/enyo/tools/../../lib/layout/list/samples/FlyweightRepeaterSample.css */
+/* C://Users/Jason/Git/enyo2-sampler-webapp/enyo/tools/../../lib/layout/list/samples/FlyweightRepeaterSample.css */
 
 .flyweight-repeater-sample {
 	background-color: gray;
@@ -1824,7 +1827,7 @@ a:link, a:visited {
 	font-weight: bold;
 }
 
-/* C://Users/Jason/Desktop/sampler/enyo/tools/../../lib/layout/tree/source/Node.css */
+/* C://Users/Jason/Git/enyo2-sampler-webapp/enyo/tools/../../lib/layout/tree/source/Node.css */
 
 .enyo-node {
 	cursor: default;
@@ -1856,7 +1859,7 @@ a:link, a:visited {
 }
 
 
-/* C://Users/Jason/Desktop/sampler/enyo/tools/../../lib/layout/imageview/source/ImageViewPin.css */
+/* C://Users/Jason/Git/enyo2-sampler-webapp/enyo/tools/../../lib/layout/imageview/source/ImageViewPin.css */
 
 
 .pinDebug {
@@ -1864,11 +1867,11 @@ a:link, a:visited {
 	border:1px solid yellow;
 }
 
-/* C://Users/Jason/Desktop/sampler/enyo/tools/../../lib/layout/imageview/samples/ImageViewSample.css */
+/* C://Users/Jason/Git/enyo2-sampler-webapp/enyo/tools/../../lib/layout/imageview/samples/ImageViewSample.css */
 
 
 
-/* C://Users/Jason/Desktop/sampler/enyo/tools/../../lib/layout/imageview/samples/ImageCarouselSample.css */
+/* C://Users/Jason/Git/enyo2-sampler-webapp/enyo/tools/../../lib/layout/imageview/samples/ImageCarouselSample.css */
 
 .imagecarousel-sample-input {
 	margin:0px 6px;
@@ -1879,7 +1882,7 @@ a:link, a:visited {
 	width:30px;
 }
 
-/* C://Users/Jason/Desktop/sampler/enyo/tools/../../lib/onyx/samples/sample.css */
+/* C://Users/Jason/Git/enyo2-sampler-webapp/enyo/tools/../../lib/onyx/samples/sample.css */
 
 .onyx-sample {
 	padding: 10px;
@@ -1926,7 +1929,7 @@ a:link, a:visited {
 }
 
 
-/* C://Users/Jason/Desktop/sampler/enyo/tools/../../lib/onyx/samples/DrawerSample.css */
+/* C://Users/Jason/Git/enyo2-sampler-webapp/enyo/tools/../../lib/onyx/samples/DrawerSample.css */
 
 .drawer-sample {
 	padding: 10px;
@@ -1962,15 +1965,15 @@ a:link, a:visited {
 	border-color: orange;
 }
 
-/* C://Users/Jason/Desktop/sampler/enyo/tools/../../lib/canvas/samples/CanvasPrimitivesSample.css */
+/* C://Users/Jason/Git/enyo2-sampler-webapp/enyo/tools/../../lib/canvas/samples/CanvasPrimitivesSample.css */
 
 
 
-/* C://Users/Jason/Desktop/sampler/enyo/tools/../../lib/canvas/samples/CanvasBallsSample.css */
+/* C://Users/Jason/Git/enyo2-sampler-webapp/enyo/tools/../../lib/canvas/samples/CanvasBallsSample.css */
 
 
 
-/* C://Users/Jason/Desktop/sampler/enyo/tools/../samples/PlatformSample.css */
+/* C://Users/Jason/Git/enyo2-sampler-webapp/enyo/tools/../samples/PlatformSample.css */
 
 .platform-sample {
 	padding: 15px;
@@ -1984,7 +1987,7 @@ a:link, a:visited {
 	margin-bottom: 8px;
 }
 
-/* C://Users/Jason/Desktop/sampler/enyo/tools/../samples/Playground.css */
+/* C://Users/Jason/Git/enyo2-sampler-webapp/enyo/tools/../samples/Playground.css */
 
 .playground-sample-player {
 	padding: 15px;
@@ -2017,7 +2020,7 @@ a:link, a:visited {
 }
 
 
-/* C://Users/Jason/Desktop/sampler/enyo/tools/../samples/AjaxSample.css */
+/* C://Users/Jason/Git/enyo2-sampler-webapp/enyo/tools/../samples/AjaxSample.css */
 
 .ajax-sample {
 	padding: 15px;
@@ -2035,7 +2038,7 @@ a:link, a:visited {
 }
 
 
-/* C://Users/Jason/Desktop/sampler/enyo/tools/../samples/JsonpSample.css */
+/* C://Users/Jason/Git/enyo2-sampler-webapp/enyo/tools/../samples/JsonpSample.css */
 
 .jsonp-sample {
 	padding: 15px;
@@ -2053,7 +2056,7 @@ a:link, a:visited {
 }
 
 
-/* C://Users/Jason/Desktop/sampler/enyo/tools/../samples/WebServiceSample.css */
+/* C://Users/Jason/Git/enyo2-sampler-webapp/enyo/tools/../samples/WebServiceSample.css */
 
 .webservice-sample {
 	padding: 15px;
@@ -2071,7 +2074,7 @@ a:link, a:visited {
 }
 
 
-/* C://Users/Jason/Desktop/sampler/enyo/tools/../samples/RepeaterSample.css */
+/* C://Users/Jason/Git/enyo2-sampler-webapp/enyo/tools/../samples/RepeaterSample.css */
 
 .repeater-sample {
 	padding:15px;
@@ -2083,7 +2086,7 @@ a:link, a:visited {
 	background-color: lightgray;
 }
 
-/* C://Users/Jason/Desktop/sampler/enyo/tools/../samples/ScrollerSample.css */
+/* C://Users/Jason/Git/enyo2-sampler-webapp/enyo/tools/../samples/ScrollerSample.css */
 
 .scroller-sample-panels {
 	margin:15px;
@@ -2095,7 +2098,7 @@ a:link, a:visited {
 	border: 1px solid orange;
 }
 
-/* C://Users/Jason/Desktop/sampler/enyo/tools/../samples/GestureSample.css */
+/* C://Users/Jason/Git/enyo2-sampler-webapp/enyo/tools/../samples/GestureSample.css */
 
 .gesture-sample {
 	padding: 15px;
@@ -2156,7 +2159,7 @@ a:link, a:visited {
 
 
 
-/* C://Users/Jason/Desktop/sampler/enyo/tools/../../lib/g11n/samples/sample.css */
+/* C://Users/Jason/Git/enyo2-sampler-webapp/enyo/tools/../../lib/g11n/samples/sample.css */
 
 .g11n-sample-divider {
 	color: #F49200;
