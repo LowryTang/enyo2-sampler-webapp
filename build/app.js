@@ -2231,13 +2231,22 @@ name: "onyx.Button",
 kind: "enyo.Button",
 classes: "onyx-button enyo-unselectable",
 create: function() {
-enyo.platform.firefoxOS && (this.handlers.ondown = "down", this.handlers.onleave = "leave"), this.inherited(arguments);
+enyo.platform.firefoxOS && (this.handlers.ondown = "fxosDown", this.handlers.onenter = "fxosEnter", this.handlers.ondrag = "fxosDrag", this.handlers.onleave = "fxosLeave", this.handlers.onup = "fxosUp"), this.inherited(arguments);
 },
-down: function(e, t) {
-this.addClass("pressed");
+fxosDown: function(e, t) {
+this.addClass("pressed"), this._isInControl = !0;
 },
-leave: function(e, t) {
-this.removeClass("pressed");
+fxosEnter: function(e, t) {
+this._isInControl = !0;
+},
+fxosDrag: function(e, t) {
+this.addRemoveClass("pressed", this._isInControl);
+},
+fxosLeave: function(e, t) {
+this._isInControl = !1;
+},
+fxosUp: function(e, t) {
+this.removeClass("pressed"), this._isInControl = !1;
 }
 });
 
@@ -2251,13 +2260,22 @@ active: !1
 },
 classes: "onyx-icon-button",
 create: function() {
-enyo.platform.firefoxOS && (this.handlers.ondown = "down", this.handlers.onleave = "leave"), this.inherited(arguments);
+enyo.platform.firefoxOS && (this.handlers.ondown = "fxosDown", this.handlers.onenter = "fxosEnter", this.handlers.ondrag = "fxosDrag", this.handlers.onleave = "fxosLeave", this.handlers.onup = "fxosUp"), this.inherited(arguments);
 },
-down: function(e, t) {
-this.addClass("pressed");
+fxosDown: function(e, t) {
+this.addClass("pressed"), this._isInControl = !0;
 },
-leave: function(e, t) {
-this.removeClass("pressed");
+fxosEnter: function(e, t) {
+this._isInControl = !0;
+},
+fxosDrag: function(e, t) {
+this.addRemoveClass("pressed", this._isInControl);
+},
+fxosLeave: function(e, t) {
+this._isInControl = !1;
+},
+fxosUp: function(e, t) {
+this.removeClass("pressed"), this._isInControl = !1;
 },
 rendered: function() {
 this.inherited(arguments), this.activeChanged();
@@ -3607,7 +3625,7 @@ name: "knob",
 classes: "onyx-slider-knob"
 } ],
 create: function() {
-this.inherited(arguments), enyo.platform.firefoxOS && (this.moreComponents[2].ondown = "down", this.moreComponents[2].onleave = "leave"), this.createComponents(this.moreComponents), this.valueChanged();
+this.inherited(arguments), enyo.platform.firefoxOS && (this.moreComponents[2].ondown = "fxosDown", this.moreComponents[2].onenter = "fxosEnter", this.moreComponents[2].ondrag = "fxosDrag", this.moreComponents[2].onleave = "fxosLeave", this.moreComponents[2].onup = "fxosUp"), this.createComponents(this.moreComponents), this.valueChanged();
 },
 valueChanged: function() {
 this.value = this.clampValue(this.min, this.max, this.value);
@@ -3643,11 +3661,20 @@ var n = this.calcKnobPosition(t);
 return n = this.increment ? this.calcIncrement(n) : n, this.tapped = !0, this.animateTo(n), !0;
 }
 },
-down: function(e, t) {
-this.addClass("pressed");
+fxosDown: function(e, t) {
+this.$.knob.addClass("pressed"), this._isInControl = !0;
 },
-leave: function(e, t) {
-this.removeClass("pressed");
+fxosEnter: function(e, t) {
+this._isInControl = !0;
+},
+fxosDrag: function(e, t) {
+this.$.knob.addRemoveClass("pressed", this._isInControl);
+},
+fxosLeave: function(e, t) {
+this._isInControl = !1;
+},
+fxosUp: function(e, t) {
+this.$.knob.removeClass("pressed"), this._isInControl = !1;
 },
 animateTo: function(e) {
 this.$.animator.play({

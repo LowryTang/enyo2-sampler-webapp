@@ -1,35 +1,34 @@
 CACHE MANIFEST
 
-#version 1.0 1-25-2013
+# Time: Thu Jan 31 2013 00:12:08 GMT+0000 (UTC)
 
 CACHE:
 
-#images
-
-
-#internal HTML documents
-
 #style sheets
-http://enyo2-sampler.canuckcoding.ca/assets/resources/css/en.css
-http://enyo2-sampler.canuckcoding.ca/build/app.css
 http://enyo2-sampler.canuckcoding.ca/build/enyo.css
+http://enyo2-sampler.canuckcoding.ca/build/app.css
+http://enyo2-sampler.canuckcoding.ca/assets/resources/css/c.css
 
-#style sheet images
-"../assets/bg.png"
-"../lib/layout/list/samples/assets/bg.png"
-"../lib/layout/list/samples/assets/item-hilite.png"
-"../lib/onyx/images/checkbox.png"
-"../lib/onyx/images/grabbutton.png"
-"../lib/onyx/images/gradient-invert.png"
-"../lib/onyx/images/gradient.png"
-"../lib/onyx/images/more.png"
-"../lib/onyx/images/slider-handle.png"
-"../lib/onyx/images/spinner-dark.gif"
-"../lib/onyx/images/spinner-light.gif"
+#stylesheet images
+http://enyo2-sampler.canuckcoding.ca/assets/bg.png
+http://enyo2-sampler.canuckcoding.ca/lib/layout/list/samples/assets/bg.png
+http://enyo2-sampler.canuckcoding.ca/lib/layout/list/samples/assets/item-hilite.png
+http://enyo2-sampler.canuckcoding.ca/lib/onyx/images/checkbox.png
+http://enyo2-sampler.canuckcoding.ca/lib/onyx/images/grabbutton.png
+http://enyo2-sampler.canuckcoding.ca/lib/onyx/images/gradient-invert.png
+http://enyo2-sampler.canuckcoding.ca/lib/onyx/images/gradient.png
+http://enyo2-sampler.canuckcoding.ca/lib/onyx/images/more.png
+http://enyo2-sampler.canuckcoding.ca/lib/onyx/images/slider-handle.png
+http://enyo2-sampler.canuckcoding.ca/lib/onyx/images/spinner-dark.gif
+http://enyo2-sampler.canuckcoding.ca/lib/onyx/images/spinner-light.gif
 
 #javascript files
 http://enyo2-sampler.canuckcoding.ca/build/enyo.js
 http://enyo2-sampler.canuckcoding.ca/build/app.js
+
+#other resources
+http://enyo2-sampler.canuckcoding.ca/assets/resources/c.json
+http://enyo2-sampler.canuckcoding.ca/assets/manifest.json
 
 NETWORK:
 *
