@@ -2243,7 +2243,7 @@ fxosDrag: function(e, t) {
 this.addRemoveClass("pressed", this._isInControl);
 },
 fxosLeave: function(e, t) {
-this._isInControl = !1;
+this.removeClass("pressed"), this._isInControl = !1;
 },
 fxosUp: function(e, t) {
 this.removeClass("pressed"), this._isInControl = !1;
@@ -2272,7 +2272,7 @@ fxosDrag: function(e, t) {
 this.addRemoveClass("pressed", this._isInControl);
 },
 fxosLeave: function(e, t) {
-this._isInControl = !1;
+this.removeClass("pressed"), this._isInControl = !1;
 },
 fxosUp: function(e, t) {
 this.removeClass("pressed"), this._isInControl = !1;
@@ -3671,7 +3671,7 @@ fxosDrag: function(e, t) {
 this.$.knob.addRemoveClass("pressed", this._isInControl);
 },
 fxosLeave: function(e, t) {
-this._isInControl = !1;
+this.$.knob.removeClass("pressed"), this._isInControl = !1;
 },
 fxosUp: function(e, t) {
 this.$.knob.removeClass("pressed"), this._isInControl = !1;
